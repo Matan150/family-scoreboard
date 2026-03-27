@@ -1,0 +1,24 @@
+# Build outputs
+listener/listener.exe
+listener/build_go/
+scoreboard/dist/
+
+# Dependencies
+scoreboard/node_modules/
+
+# Database
+listener/scoreboard.db
+*.db
+
+# Whisper model binaries
+*.bin
+
+# whisper.cpp — large C library, add as git submodule separately
+listener/whisper.cpp/
+
+# Claude Code local settings (keep CLAUDE.md but not local overrides)
+.claude/settings.local.json
+
+# OS
+.DS_Store
+Thumbs.db
