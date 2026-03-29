@@ -1,0 +1,6 @@
+numpy
+fastapi
+uvicorn[standard]
+sqlalchemy
+pvrecorder
+faster-whisper

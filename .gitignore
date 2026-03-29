@@ -19,6 +19,11 @@ listener/whisper.cpp/
 # Claude Code local settings (keep CLAUDE.md but not local overrides)
 .claude/settings.local.json
 
+# Python virtual environment
+.venv/
+__pycache__/
+*.pyc
+
 # OS
 .DS_Store
 Thumbs.db
